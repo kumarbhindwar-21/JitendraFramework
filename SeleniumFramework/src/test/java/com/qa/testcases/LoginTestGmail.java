@@ -22,12 +22,10 @@ public class LoginTestGmail extends BaseClass {
 	logger.pass("Login Successfull");
 	//HelperUtility.capturScreenshot(driver);
 	}
-	@Test(priority = 2)
-	public void loginApp1() throws InterruptedException{
-	logger=report.createTest("Free_CRM");
-	logger.info("Starting Application");
-	logger.fail("Failed");
-	//HelperUtility.capturScreenshot(driver);
-	}
+	/*
+	 * @Test(priority = 2) public void loginApp1() throws InterruptedException{
+	 * logger=report.createTest("Free_CRM"); logger.info("Starting Application");
+	 * logger.fail("Failed"); //HelperUtility.capturScreenshot(driver); }
+	 */
 
 }

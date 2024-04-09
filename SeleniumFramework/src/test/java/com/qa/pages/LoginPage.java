@@ -12,7 +12,7 @@ public class LoginPage {
 		this.driver=ldriver;
 	}
 	
-	@FindBy(id="user-name1")
+	@FindBy(id="user-name")
 	public WebElement userName;
 	@FindBy(xpath="//span[text()='Next']")
 	public WebElement next;
